@@ -1,0 +1,21 @@
+# Application dependencies
+
+require:
+    - play
+    - org.apache.lucene.morphology -> russian 1.0
+    - com.google.guava -> guava r08
+    - org.jsoup -> jsoup 1.6.1
+    - provided -> xstream 1.4.1
+    - provided -> jama 1.0.2
+  
+repositories:
+    - russian-morphology.lucene.apache.org:
+        type: iBiblio
+        root: "http://russianmorphology.googlecode.com/svn/repo/releases/"
+        contains:
+            - org.apache.lucene.morphology -> *
+    - provided:
+        type: local
+        artifact: "${application.path}/jar/[module]-[revision].jar"
+        contains:
+            - provided -> *

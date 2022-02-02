@@ -1,0 +1,11 @@
+lib/*
+logs/*
+modules/*
+nbproject
+tmp/*
+test-result/*
+test/data/xstream/*
+.classpath
+.project
+.settings
+eclipse

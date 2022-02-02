@@ -1,0 +1,1855 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<meta name="google-site-verification" content="0hiK60sva5fMFQWnUPjznlXIBk82-aqxdpTDe9VsHBU" />
+<meta name="yandex-verification" content="4a32542b3249f692" />
+<title>REG.RU &mdash; регистрация доменов у аккредитованного регистратора доменов РФ / RU / SU</title>
+<link rel="alternate" type="application/rss+xml" title="Архив новостей REG.RU" href="http://www.reg.ru/news/rss" />
+<link href="/i/style/first/favicon.ico" rel="SHORTCUT ICON" type="image/x-icon"/>
+	<link href="/css/all-styles-rebased.css?1311881129" rel="stylesheet" type="text/css" />
+
+    <!--[if lte IE 7]>
+    <link type="text/css" rel="stylesheet" href="/css/buttons-ie.css?1311772986" />
+    <![endif]-->
+    <!--[if IE 7]>
+	<link href="/css/ie7.css?1305297326" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if lte IE 6]>
+    <link type="text/css" rel="stylesheet" href="/css/buttons-ie6.css?1308221826" />
+    <link href="/css/ie6.css?1305297326" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="/css/ie-all.css?1311335537" />
+    <![endif]-->
+
+    
+    <!--[if lte IE 7]>
+    <link rel="stylesheet" type="text/css" href="/css/promo-ie.css?1274090791" />
+    <![endif]-->
+    <!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="/css/promo-ie6.css?1311859015" />
+    <![endif]-->
+
+	<script type="text/javascript" src="http://yandex.st/jquery/1.3.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    <!--        
+    !window.jQuery && document.write('<script src="/js/jquery/jquery-packed.js"></'+'script>');
+    // -->
+    </script>	
+
+
+    <!--[if lte IE 6]>
+    <script type="text/javascript" src="/js/jquery/jquery.ifixpng.js?1281424639"></script>
+    <![endif]-->
+    
+    <script type="text/javascript" src="/js/all-scripts.js?1311859015"></script>
+
+    <script type="text/javascript" src="/js/jquery/jquery-ui-1.8.6.custom.min.js?1290590700"></script>
+    <link href="/css/jquery/ui/jquery-ui-1.8.6.custom.css?1290587080" rel="stylesheet" type="text/css" />
+    
+    
+    <script type="text/javascript" src="/js/jquery/jquery.jqote2.js?1296936174"></script>
+    <script type="text/javascript" src="/js/ZeroClipboard.js?1308159722"></script>
+    
+    <link rel="search" type="application/opensearchdescription+xml" title="REG.RU WHOIS" href="/js/reg.ru.domain.xml" />
+    
+      <script type="text/javascript">
+        $().ready(function() {
+            var f1 = $('#domain_name');
+            var f2 = $('#rf_names');
+
+            // Отложенная привязка автодополнения
+            f1.one('focus', function() {
+                bind_autocomplete_in_premiums( f1, $('#zones_select') );
+            });
+
+            f2.one('focus', function() {
+                bind_autocomplete_in_premiums(f2);
+            });
+        });
+      </script>
+    </head>
+
+<!-- header_screen_body_cached -->
+
+<body class=" notlogged">
+<!-- <div id="dbg" style="position: absolute; top: 140px; left: 10px; width: 390px; height: 860px; border: 1px solid red; z-index: 99999;"></div> -->
+
+<!-- Эти блоки подгружают самые заметные бекграунды в первую очередь -->
+<div style="width:0px;height:0px;background:url('//i.reg.ru/i/promo-selector/li-bg.gif');"></div>
+<div style="width:0px;height:0px;background:url('//i.reg.ru/i/promo-selector/sprites.png');"></div>
+
+<!-- pleasewait indicator -->
+    <div style="border: 0; margin: 0;">
+      <div id="progress" class="progress" style="display: none; width: 300px; z-index: 101;">
+	<div style="background-color: #efefef; border: 4px solid #bbc0c4; padding: 9px 45px 9px 45px;">
+	  <table cellspacing="0" cellpadding="0">
+	    <tr>
+	      <td><img src="/i/loading.gif" height="32" width="32" alt="Wait" />&nbsp;&nbsp;&nbsp;</td>
+	      <td>
+	       <strong id="progress_text">Подождите, пожалуйста.<br />Идёт проверка...</strong>
+	      </td>
+	    </tr>
+	  </table>
+	</div>
+      </div>
+    </div>
+    <!-- /pleasewait indicator -->
+
+    <!-- balance popup -->
+
+      <div id="add_balance">
+		<div class="wpopup">
+			<form action="/order/prepayment_order?nocache=4588188" method="post">
+				<h2 class="rust">Пополнение баланса</h2>
+				<p>Введите сумму:&nbsp;<input type="text" name="amount" size="6" class="double_border" value="1000" />&nbsp;р.</p>
+				<button type="submit" class="button-20 button-green-forward" onclick="jQuery('#add_balance').css({display: 'none'}); return true;" ><b
+					title="Далее">Далее				</b></button>&nbsp;
+				<button type="button" class="button-20 button-red" name="cancel" onclick="jQuery('#add_balance').css({display: 'none'}); return false;" ><b
+					title="Отмена">Отмена				</b></button>
+			</form>
+		</div>
+      </div>
+
+    <!-- balance popup -->
+<!-- wrapper -->
+  <div id="wrapper">
+
+
+<!-- topline -->
+  <div id="header_top">
+    <div class="content-block">
+    	    <div id="header_options">
+		<!-- language switching -->
+		<div id="lang" class="ru">
+          <ul class="menu">
+        	<li class="submenu">
+        	  <div class="submenu">				<img src="/i/style/first/ru.png" width="14" height="11" alt="" />
+        	  </div>
+			  <div class="submenu_wrap">
+				  <ul>
+					<li>						<a href="/en/index"><img src="/i/style/first/en.png" width="14" height="11" alt="" />IN ENGLISH</a>        	    
+					</li>
+					<li>						<a href="/index"><img src="/i/style/first/ru.png" width="14" height="11" alt="" />ПО-РУССКИ</a>        	    
+					</li>
+				  </ul>
+			  </div>
+        	</li>
+          </ul>
+		</div>
+		<!-- /language switching -->
+	    </div>
+
+	    <!-- search form -->
+	    <form method="get" action="/search" class="search" id="top_search_form">
+		<div class="bg">
+		    <div class="query"><input type="text" name="q" value="Поиск по сайту" title="Поиск по сайту" /></div>
+		    <input type="submit" class="submit" value="" />
+		    <input type="hidden" name="categories" id="categories_for_yasearch" value= "" />
+		    
+		    <ul>
+			<li><input type="checkbox" class="search_categories" value="all" id="cat_all" checked="checked" /><label for="cat_all">Весь сайт</label></li>
+			<li><input type="checkbox" class="search_categories" value="domains" id="cat_domains" /><label for="cat_domains">Домены</label></li>
+			<li><input type="checkbox" class="search_categories" value="billing" id="cat_billing" /><label for="cat_billing" class="show_wide">Финансовые вопросы</label><label for="cat_billing" class="hide_wide">Финансы</label></li>
+			<li><input type="checkbox" class="search_categories" value="hosting" id="cat_hosting" /><label for="cat_hosting">Хостинг</label></li>
+			<li><input type="checkbox" class="search_categories" value="vps" id="cat_vps" /><label for="cat_vps">VPS</label></li>
+			<li><input type="checkbox" class="search_categories"  id="cat_news" value="newsandevents" /><label for="cat_news" class="show_wide">Новости и мероприятия</label><label for="cat_news" class="hide_wide">Новости</label></li>
+			<li><input type="checkbox" class="search_categories"  id="cat_moneywithus" value="moneywithus" /><label for="cat_moneywithus">Заработок с Reg.ru</label></li>
+			<li><input type="checkbox" class="search_categories"  id="cat_api" value="api" /><label for="cat_api">API</label></li>
+			<li><input type="checkbox" class="search_categories"  id="cat_other" value="other" /><label for="cat_other">Доп.услуги</label></li>
+		    </ul>
+		    <div style="text-align:center">
+            <button name="check" type="submit"
+					class="button-20 button-green"><b
+					title="Искать">Искать</b></button>
+            </div>
+		</div>
+		<div class="focus focus-l">&nbsp;</div>
+		<div class="focus focus-r">&nbsp;</div>
+	    </form>
+	    <!-- /search form -->	
+      <!-- whois form -->
+      <form id="whois_dom_top" method="get" onsubmit="return validate_whois( 'whois_dom_top' )" action="http://www.reg.ru/whois/index">
+	<div>
+	  <a style="text-decoration:none;" href="http://www.reg.ru/whois/index">Whois</a>
+	  <div class="dname"><input id="dmname" name="dname" type="text" /></div>
+	  <input id="dsubmit" type="submit" value="" />
+	</div>
+      </form>
+
+
+
+
+    
+      <!-- phones ru -->
+      <ul class="menu">
+	<li class="submenu">
+	  <div class="submenu">
+          
+	    
+		
+    
+            МОСКВА: +7 (495) 580-11-11
+        
+
+	    
+          
+      </div>
+      <div class="submenu_wrap">
+	  <ul>
+	    <li><a href="http://www.reg.ru/company/contacts/moscow" rel="blank">Офис&nbsp;в&nbsp;Москве</a></li>
+	    <li><a href="http://www.reg.ru/company/contacts/piter" rel="blank">Офис&nbsp;в&nbsp;Санкт-Петербурге</a></li>
+	    <li><a href="http://www.reg.ru/company/contacts/samara" rel="blank">Офис&nbsp;в&nbsp;Самаре</a></li>
+	    <li><a href="http://www.reg.ru/company/contacts/ekaterinburg" rel="blank">Офис&nbsp;в&nbsp;Екатеринбурге</a></li>
+	     <li><a href="http://www.reg.ru/company/contacts/kaliningrad" rel="blank">Офис&nbsp;в&nbsp;Калининграде</a></li>
+	     <li><a href="http://www.reg.ru/company/contacts/novosibirsk" rel="blank">Офис&nbsp;в&nbsp;Новосибирске</a></li>
+	  </ul>
+	  </div>
+	</li>
+      </ul>
+      <!-- /phones ru -->
+
+    
+      <!-- phones ua -->
+      <ul class="menu">
+	<li class="submenu">
+	  <div class="submenu">УКРАИНА: +380 (44) 585-33-33</div>
+	  <div class="submenu_wrap">
+	  <ul>
+	    <li><a href="http://www.reg.ru/company/contacts/kiev#schema" rel="blank">Офис&nbsp;в&nbsp;Киеве</a></li>
+	  </ul>
+	  </div>
+	</li>
+      </ul>
+      <!-- /phones ua -->
+
+
+      <!-- project menu -->
+      <ul class="menu">
+	<li class="submenu">
+	  <div class="submenu">ПРОЕКТЫ REG.RU</div>
+	  <div class="submenu_wrap">
+	  <ul>
+	    
+	    
+		<li><a href="http://software.reg.ru/" rel="blank">REG.Panel</a></li>
+	    
+	    <li><a href="http://hosting.reg.ru/" rel="blank">Хостинг сайтов</a></li>
+	    <li><a href="http://www.reg.ru/service/mobile">Мобильный REG.RU</a></li>
+	    <li><a href="http://domainergame.ru/" rel="blank">Игра Домейнер</a></li>
+	    <li><a href="http://nick.reg.ru/" rel="blank">Имя в подарок</a></li>
+	    
+		<li><a href="http://skidki.reg.ru/" rel="blank">SKIDKI.REG.RU</a></li>
+	    
+	    <li><a href="http://www.dubby.ru/" rel="blank">Dubby.ru</a></li>
+	    <li><a href="http://www.17.ru/" rel="blank">17 лет домену .RU</a></li>
+        
+		<li><a href="http://rf.reg.ru/" rel="blank">Домен .РФ</a></li>
+	    
+	    
+		<li><a href="http://stat.reg.ru/" rel="blank">Доменная статистика</a></li>
+	    
+	    <li><a href="http://www.ru-golos.ru/" rel="blank">RU-ГОЛОС</a></li>
+	    <li><a href="http://с-днем-рождения.рф/логотип/" rel="blank">Логотип .РФ</a></li>
+	    <li><a href="http://с-днем-рождения.рф/" rel="blank">Один год домену .РФ</a></li>
+	    <li><a style="padding-right:0em" href="http://simaphone.reg.ru/" rel="blank">SimaPhone 4 .РФ</a></li>
+	  </ul>
+	  </div>
+	</li>
+      </ul>
+      <!-- /project menu -->    </div>
+  </div>
+<!-- /topline -->
+
+
+    <!-- header -->
+      <div id="header">
+	<div class="content-block">
+
+	    <!-- login form -->
+	    <form action="https://www.reg.ru/user/login?nocache=4588188"
+		  method="post" id="personal" class="ru">
+	      <div>
+		<input type="text" id="header-login" name="login" maxlength="32" class="logpass" />
+		<input type="password" id="header-password" name="password" maxlength="32" class="logpass keyboardInput" />
+                <input type="hidden" name="mode" value="login" />
+		<input id="header-submit" name="submit" type="image" src="/i/style/first/glamor/header-submit.png" alt="Войти" />
+	      </div>
+	      <div>
+		<a href="https://www.reg.ru/user/authorize?mode=register">регистрация</a>
+		<span>|</span>
+		<a href="/user/forgot_passwd">забыли пароль?</a>
+	      </div>
+	    </form>
+	    <!-- /login form -->
+
+	  <!-- logo -->
+
+
+
+                                                                                                                                                                                                                                                                                                          
+
+    <a id="regru-logo" href="/">
+	<img src="/i/holidays/regru.png" alt="reg.ru" 
+	title="ООО &laquo;Регистратор доменных имен РЕГ.РУ&raquo;"/>
+    </a>
+
+	  <!-- /logo -->
+
+	  <div id="regru-description">
+	    <!-- h2>Аккредитованный регистратор в национальном домене RU/SU</h2>
+	    <h1>...</h1 -->
+	    <ul>
+	      <li>Аккредитованный регистратор доменных имен</li>
+	      <li>900 000 доменных имен на обслуживании</li>
+	      <li>Регистрация доменов в более чем 150 зонах</li>
+	      <li>Услуги платного хостинга и почты</li>
+	      <li>Лучшие условия для оптовых клиентов</li>
+	      <li style="margin-bottom:1.4em">Офисы: Москва, Санкт-Петербург, Киев, Самара, <br/>Екатеринбург, Калининград и Новосибирск</li>
+	      <li>Признанный новатор лучших доменных сервисов</li>
+	      <li>Сервис, ориентированный на клиента</li>
+	      <li>Надежно и конфиденциально</li>
+	      <li>Сертифицированный оператор персональных данных</li>
+	      <li>Профессиональная техническая поддержка</li>
+	    </ul>
+	    <a class="prev" href="javascript://"></a>
+	    <a class="next" href="javascript://"></a>
+	  </div>
+	</div>
+      </div>
+    <!-- /header -->
+
+    <!-- main -->
+      <div id="wrapper-fields">
+	<div id="wrapper-content" class="content-block">
+	  <div id="wrapper-border">
+
+	  <!-- sidebar -->
+	  <div id="sidebar">
+	    <div class="block" id="uslugi">
+	      <h2><span></span>Услуги</h2>
+	      <div class="content">
+
+<ul>
+		 
+		 <li >
+		  <a href="/newdomain/index"
+		      id="item1" ><span>Зарегистрировать домен</span></a>
+		 </li>
+		 <li >
+		  <a href="/newdomain/bulk"
+		      id="item5" ><span>Оптовая регистрация доменов</span></a>
+		 </li>
+		 <li >
+		  <a href="http://hosting.reg.ru/"
+		      id="item12" ><span>Хостинг сайтов</span>
+		        <img src="/i/icon/sidebar-uslugi-best.gif" alt="best" />
+		    </a>
+		 </li>
+		 <li >
+		  <a href="/service/plesk_sitebuilder"
+		      id="item24" ><span>Конструктор сайтов</span>
+		        <img src="/i/icon/sidebar-uslugi-new.gif" alt="new" />
+		    </a>
+		 </li>
+		 <li >
+		  <a href="/service/yandex_mail_promo"
+		      id="item18" ><span>Бесплатная почта</span></a>
+		 </li>
+		 <li >
+		  <a href="http://hosting.reg.ru/vps/"
+		      id="item19" ><span>Виртуальные серверы VPS</span></a>
+		 </li>
+		 <li >
+		  <a href="http://hosting.reg.ru/dedicated/"
+		      id="item20" ><span>Физические серверы Dedicated</span></a>
+		 </li>
+		 <li >
+		  <a href="/sslcertificate/"
+		      id="item21" ><span>SSL-сертификаты Thawte</span>
+		        <img src="/i/icon/sidebar-uslugi-new.gif" alt="new" />
+		    </a>
+		 </li>
+		 <li >
+		  <a href="/newdomain/choose"
+		      id="item4" ><span>Подобрать домен</span></a>
+		 </li>
+		 <li >
+		  <a href="/domain/transfer"
+		      id="item2" ><span>Перенести домен</span></a>
+		 </li>
+		 <li >
+		  <a href="/newdomain/rereg"
+		      id="item13" ><span>Освобождающиеся домены</span>
+		        <img src="/i/icon/sidebar-uslugi-best.gif" alt="best" />
+		    </a>
+		 </li>
+		 <li >
+		  <a href="/newdomain/freeing_domains"
+		      id="item9" ><span>Освобожденные домены</span></a>
+		 </li>
+		 <li >
+		  <a href="/newdomain/suggest-variants"
+		      id="item8" ><span>Премиум-домены</span>
+		        <img src="/i/icon/sidebar-uslugi-best.gif" alt="best" />
+		    </a>
+		 </li>
+		 <li >
+		  <a href="/whois/index"
+		      id="item7" ><span>Whois</span></a>
+		 </li>
+		 <li >
+		  <a href="/service/get_wm_att"
+		      id="item10" ><span>Получить WM-аттестат</span></a>
+		 </li>
+		 <li >
+		  <a href="/service/disable_operations"
+		      id="item22" ><span>Защита доменного имени</span></a>
+		 </li>
+
+		 <li >
+		  <a href="/service/guarantee"
+		      id="item11" ><span>Гарант сделки по домену</span></a>
+		 </li>
+		 <li >
+		  <a href="/help/jservice"
+		      id="item16" ><span>Юридические услуги</span></a>
+		 </li>
+		 <li >
+		  <a href="/service/sms"
+		      id="item6" ><span>SMS-сервисы</span></a>
+		 </li>
+		 <li >
+		  <a href="/service/mobile"
+		      id="item_mobile" ><span>Для мобильных устройств</span>
+		        <img src="/i/icon/sidebar-uslugi-new.gif" alt="new" />
+		    </a>
+		 </li>
+		 <li >
+		  <a href="/user/affiliate/promo"
+		      id="item14" ><span>Реферальная программа</span></a>
+		 </li>
+		 <li >
+		  <a href="/prices/index"
+		      id="item3" ><span>Стоимость услуг</span></a>
+		 </li>
+		 <li >
+		  <a href="/domain/shop"
+		      id="item_shop" ><span>Магазин доменов</span></a>
+		 </li>
+
+		 <li  class="menu-last ">
+		  <a href="/news/actions"
+		      id="item17" ><span>Действующие акции</span></a>
+		 </li>
+
+		</ul>
+	      </div>
+	    </div>
+
+
+	    <div class="block" id="info">
+	      <h2><span></span>Информация</h2>
+	      <div class="content">
+		<ul id="treemenu">
+		  <li class="collapsed" id="i1">
+			<span class="toggle"></span><a  class="foo" title="Для розничных Клиентов">Для розничных Клиентов</a>
+		    <ul>
+		  <li class="">
+			<a href="/retail/index" title="Общая информация">Общая информация</a>
+		  </li>
+		  <li class="">
+			<a href="/user/authorize?new=1" title="Стать Клиентом!">Стать Клиентом!</a>
+		  </li>
+		  <li class="">
+			<a href="/retail/documents" title="Договоры и письма">Договоры и письма</a>
+		  </li>
+		    </ul>
+		  </li>
+
+		  <li class="collapsed" id="i2">
+			<span class="toggle"></span><a  class="foo" title="Для Партнеров">Для Партнеров</a>
+		    <ul>
+		  <li class="">
+			<a href="/reseller/index" title="Общая информация">Общая информация</a>
+		  </li>
+		  <li class="">
+			<a href="/reseller/documents" title="Договоры и письма">Договоры и письма</a>
+		  </li>
+		  <li class="">
+			<a href="http://software.reg.ru" title="REG.Panel" rel="blank">REG.Panel</a>
+		  </li>
+		  <li class="">
+			<a href="/reseller/API-tech" title="REG.API v1">REG.API v1</a>
+		  </li>
+		  <li class="">
+			<a href="/reseller/API2-tech" title="REG.API v2">REG.API v2</a>
+		  </li>
+		    </ul>
+		  </li>
+
+		  <li class="leaf">
+			<a href="/for_professionals" title="Для Профессионалов">Для Профессионалов</a>
+		  </li>
+		  <li class="leaf">
+			<a href="/kb/faq" title="Справка">Справка</a>
+		  </li>
+
+		  <li class="leaf">
+			<a href="/support/index" title="Техническая поддержка">Техническая поддержка</a>
+		  </li>
+		  <li class="leaf">
+			<a href="/company/index" title="О Компании">О Компании</a>
+		  </li>
+		  <li class="leaf">
+			<a href="/company/jobs" title="Вакансии">Вакансии</a>
+		  </li>
+		  <li class="leaf">
+			<a href="/news/index" title="Новости">Новости</a>
+		  </li>
+		  <li class="leaf">
+			<a href="/news/events" title="Мероприятия">Мероприятия</a>
+		  </li>
+		  
+		  <li class="leaf last">
+			<a href="/company/contacts/" title="Контактная информация">Контактная информация</a>
+		  </li>
+		  
+
+		</ul>
+	      </div>
+	    </div>
+
+	    <div class="block" id="consult">
+	      <h2><span></span>On-Line консультант</h2>
+	      <div class="content">
+		<ul>
+		  <li class="webim-online">
+		    <a href="/support/department_choice"
+		       onclick="if(navigator.userAgent.toLowerCase().indexOf('opera') != -1 &amp;&amp; window.event.preventDefault) window.event.preventDefault();this.newWindow = window.open('/support/department_choice', 'webim', 'toolbar=0,scrollbars=0,location=0,menubar=0,width=650,height=580,resizable=1');if(this.newWindow!=null){this.newWindow.focus();this.newWindow.opener=window;}return false;"
+		    >web-чат</a><span>&nbsp;&mdash;&nbsp;вопросы по доменам<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;и техподдержка</span>
+		  </li>
+		  
+		  
+		  <li class="icq-offline" >
+		    <span>1110866</span><span>&nbsp;—&nbsp;</span><span>для партнеров</span>
+		  </li>
+		  <li class="help">
+		    <a href="/help/index">Help-центр</a>
+		  </li>
+		</ul>
+	      </div>
+	    </div>
+
+	    <div class="block" id="paysys">
+	      <h2><span></span>Способы оплаты</h2>
+	      <div class="content ru">
+		<a href="/prices/paytypes" id="pay-webmoney" title="Мы принимаем WebMoney"><i>&nbsp;</i><span>WebMoney</span></a>
+		<a href="/doc/yamoney_payments" id="pay-yamoney" title="Подробности о системе Яндекс.Деньги"><i>&nbsp;</i><span>Яндекс Деньги</span></a>
+				  <a href="/doc/handybank_payments" id="pay-elecsnet" title="Оплата через Элекснет"><i>&nbsp;</i><span>Элекснет</span></a>		<br />
+		<a href="/doc/paypal" id="pay-paypal" title="Оплата через PayPal"><i>&nbsp;</i><span>PayPal</span></a>
+		<a href="/prices/paytypes" id="pay-banks" title="Банковский перевод"><i>&nbsp;</i><span>Банковский перевод</span></a>		  <a href="/doc/osmp_payments" id="pay-qiwi" title="Qiwi"><i>&nbsp;</i><span>Qiwi</span></a>
+		  <br />
+		  <a href="/doc/card_payments" id="pay-visa-mastercard" title="Оплата картами Visa и MasterCard"><i>&nbsp;</i><span>Карты</span></a>
+		  <a href="/prices/paytypes" id="pay-rbk" title="Оплата с помощью RBKmoney"><i>&nbsp;</i><span>RBK Money</span></a>		<a href="/prices/paytypes" id="pay-more" title=""><i>&nbsp;</i><span>Все&nbsp;способы</span></a>
+	      </div>
+	    </div>
+	    <div class="sidebar-banner">
+	      <a href="/support/wish">
+		<img src="/i/intinfo/nitik_book_ru.jpg" id="nitikru"
+		    alt="Пожаловаться и поблагодарить" />
+	      </a>
+	    </div>
+	  </div>
+	  <!-- / sidebar -->
+
+	  <!-- content -->
+	  <div id="content">
+<!-- private office -->
+	  <!-- /private office -->
+
+
+<!-- /header_screen_body_cached -->
+<script id="message_block_template" type="text/x-jqote-template">
+
+<div class="message_box_block_bg">
+    <div class="message_box">
+        <div class="message_box-title" style="height: 2.8383em">
+            <h1><%= this.title %></h1>
+        </div>
+        <div class="message_box-inner">
+            <div class="message_box-content">
+                <%= this.content %>
+                <div class="message_box-btn"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</script>
+
+    <script type="text/javascript">
+        $(window).load( function () {
+            $('#user_login').html('');
+            $('#user_balance_total').html('0');
+              
+            
+        }); 
+
+        
+            window.alert = window.glamor_alert;
+            window.g_confirm = window.glamor_confirm;
+        
+
+    </script>
+    	<!-- PROMO -->
+
+	<div id="promo" >
+		<div class="slides">
+
+			<!-- RF -->
+			<div id="promo-rf" class="promo promo-rf">
+				<div class="fonts">&nbsp;</div>
+				<h1>Крупнейший аккредитованный регистратор доменных имен в РФ<span class="star">*</span></h1>
+				<h2>Соглашение №1 об Аккредитации в национальных доменах .RU / .РФ</h2>
+				<form action="/newdomain/checkmany_ajax?nocache=3709816" method="post" id="promo_rf_form">
+				<div>
+					<label for="rf_names"><b>Введите имена доменов</b></label>
+
+					<div class="textarea">
+					<textarea name="dname_extended"
+					title="Например: Яндекс, Яндекс.рф, авто, бетон.рф, подарки"
+					class="double_border example" rows="5" cols="40" id="rf_names"
+					>Например: Яндекс, Яндекс.рф, авто, бетон.рф, подарки</textarea>
+					</div>
+
+					<script type="text/javascript">
+					$(function(){
+						$('#promo-rf textarea').focus(function(){
+							if ($(this).val() == $(this).attr('title'))
+								$(this).val('').removeClass('example');
+						}).blur(function(){
+							if ($(this).val().replace(/\s/g, '') == '')
+								$(this).val($(this).attr('title')).addClass('example');
+						});
+						$('#promo_rf_form').submit(function() {
+						    var match = /Например:\s+(.*)/;
+						    if ( ( match ).test( $('#rf_names').val() ) ) {
+							alert("Введите, пожалуйста, в текстовое поле перечень желаемых доменов в зоне .РФ и нажмите кнопку «Проверить»");
+							$('#rf_names').focus();
+							return false;
+						    }
+						});
+					});
+					</script>
+
+					<button name="check" type="submit"
+					class="button-20 button-green-forward"><b
+					title="Проверить">Проверить</b></button>
+
+				</div>
+				</form>
+
+				<p class="explain">
+					<span class="p">
+						<span class="star">*</span>
+						Крупнейший по объему регистраций доменов .RU за 2010 год.
+					</span>
+					<span class="p">
+						<span class="star">**</span>
+						Все цены указаны с налогами включая НДС,<br />
+						при покупке трех доменов и более цена за каждый 350р.
+					</span>
+				</p>
+
+				<div class="over9000">
+				<a href="/newdomain/index">
+					<span class="left">Еще<br />более</span>
+					<big>150</big>
+					<span class="right">доменных<br />зон</span>
+				</a>
+				</div>
+		    	</div>
+		    	<!--  / RF -->
+			
+			
+
+			<!-- DNAME -->
+			<div id="promo-dname" class="active promo promo-dname">
+				<h1>Крупнейший аккредитованный регистратор доменных имен в РФ<span class="star">*</span></h1>
+				<h2>Соглашение №1 об Аккредитации в национальных доменах .RU / .РФ</h2>
+				<form id="registration" action="/newdomain/checkmany?nocache=3709816"
+	      		method="post" onsubmit="return validate_regform( 'registration' );">
+	      		<script type="text/javascript">
+	 				$(function(){
+	  					$('#registration').attr('action',
+	  					'/newdomain/checkmany_ajax?nocache=3709816');
+	 				});
+				</script>
+
+				<div><label for="domain_name">Введите имя домена или ключевое слово</label></div>
+				<div style="float:left;width:20em;" class="nowrap">
+					<table class="noborder2">
+					<tr>
+					<td>
+					<input type="text" id="domain_name" name="dname_extended" maxlength="64" class="double_border" />
+					</td>
+					<td>
+					<span class="dot" style="width:10px;height:10px;">&nbsp;</span>
+					</td>
+					</tr>
+					</table>
+					<p class="example">Пример: <em>yandex или yandex.ru или yandex.tv</em>					</p>
+  				</div>
+
+  				<div style="margin-left:20em;">
+  				<div style="white-space:nowrap;">
+  					<select id="zones_select" name="dtype" class="double_border">
+						<option value="popular tld_ru tld_рф tld_su tld_com.ua tld_am tld_kz tld_com tld_net tld_org tld_biz tld_info tld_name tld_tv tld_mobi tld_me" selected="selected">Популярные зоны (15)</option>
+							<option value="tld_ru">ru</option>
+							<option value="tld_su">su</option>
+							<option value="tld_рф" >рф</option>
+							<option value="tld_com">com</option>
+							<option value="tld_net">net</option>
+							<option value="tld_org">org</option>
+							<option value="tld_info">info</option>
+							<option value="tld_biz">biz</option>
+							<option value="tld_name">name</option>
+							<option value="tld_kz">kz</option>
+							<option value="tld_am">am</option>
+							<option value="tld_tv">tv</option>
+							<option value="tld_mobi">mobi</option>
+							<option value="tld_com.ua">com.ua</option>
+							<option value="tld_me">me</option>
+						    <option value="cis tld_ru tld_рф tld_su tld_tm tld_md tld_ru.com tld_com.ua tld_kiev.ua tld_co.ua tld_biz.ua tld_pp.ua tld_tj tld_am tld_co.am tld_com.am tld_net.am tld_org.am tld_kz tld_com.kz tld_org.kz tld_kg ">Россия и СНГ (21)</option>
+						    <option value="international tld_com tld_net tld_org tld_biz tld_info tld_name tld_tv tld_fm tld_mobi tld_tel tld_travel ">Международные (11)</option>
+						    <option value="europe tld_at tld_co.at tld_or.at tld_be tld_ch tld_de.com tld_eu.com tld_gb.com tld_hu.com tld_no.com tld_se.com tld_uk.com tld_es tld_com.es tld_nom.es tld_org.es tld_eu tld_li tld_lt tld_lu tld_me tld_gb.net tld_se.net tld_uk.net tld_pl tld_com.pl tld_net.pl tld_org.pl tld_info.pl tld_biz.pl tld_com.pt tld_co.uk tld_org.uk tld_me.uk ">Европа (34)</option>
+						    <option value="asia tld_kr.com tld_jpn.com tld_cn.com tld_sa.com tld_co.in tld_net.in tld_org.in tld_gen.in tld_firm.in tld_ind.in tld_in tld_asia tld_jp tld_la tld_mn tld_ae.org tld_tl tld_tw tld_com.tw tld_org.tw ">Азия (20)</option>
+						    <option value="usa tld_us tld_ag tld_com.ag tld_net.ag tld_org.ag tld_bz tld_br.com tld_qc.com tld_us.com tld_uy.com tld_gd tld_gs tld_hn tld_com.hn tld_net.hn tld_org.hn tld_ht tld_lc tld_com.lc tld_net.lc tld_org.lc tld_mx tld_com.mx tld_pe tld_com.pe tld_net.pe tld_org.pe tld_tc tld_vc tld_vg tld_co tld_com.co tld_net.co tld_nom.co ">Америка (34)</option>
+						    <option value="other tld_ac tld_cc tld_cm tld_co.cm tld_com.cm tld_net.cm tld_za.com tld_cx tld_im tld_io tld_ki tld_com.ki tld_net.ki tld_org.ki tld_ms tld_mu tld_com.mu tld_net.mu tld_org.mu tld_nf tld_nu tld_co.nz tld_net.nz tld_org.nz tld_com.sb tld_net.sb tld_org.sb tld_sc tld_com.sc tld_net.sc tld_org.sc tld_sh tld_tk tld_ws tld_so ">Другие страны (35)</option><option value="allzones tld_ac tld_ae.org tld_ag tld_am tld_asia tld_at tld_be tld_biz tld_biz.pl tld_biz.ua tld_br.com tld_bz tld_cc tld_ch tld_cm tld_co tld_co.am tld_co.at tld_co.cm tld_co.in tld_co.nz tld_co.ua tld_co.uk tld_com tld_com.ag tld_com.am tld_com.cm tld_com.co tld_com.es tld_com.hn tld_com.ki tld_com.kz tld_com.lc tld_com.mu tld_com.mx tld_com.pe tld_com.pl tld_com.pt tld_com.sb tld_com.sc tld_com.tw tld_com.ua tld_cx tld_de.com tld_es tld_eu tld_eu.com tld_firm.in tld_fm tld_gb.com tld_gb.net tld_gd tld_gen.in tld_gs tld_hn tld_ht tld_hu.com tld_im tld_in tld_ind.in tld_info tld_info.pl tld_io tld_jp tld_jpn.com tld_ki tld_kiev.ua tld_kr.com tld_kz tld_la tld_lc tld_li tld_lt tld_lu tld_md tld_me tld_me.uk tld_mn tld_mobi tld_ms tld_mu tld_mx tld_name tld_net tld_net.ag tld_net.am tld_net.cm tld_net.co tld_net.hn tld_net.in tld_net.ki tld_net.lc tld_net.mu tld_net.nz tld_net.pe tld_net.pl tld_net.sb tld_net.sc tld_nf tld_no.com tld_nom.co tld_nom.es tld_nu tld_or.at tld_org tld_org.ag tld_org.am tld_org.es tld_org.hn tld_org.in tld_org.ki tld_org.kz tld_org.lc tld_org.mu tld_org.nz tld_org.pe tld_org.pl tld_org.sb tld_org.sc tld_org.tw tld_org.uk tld_pe tld_pl tld_pp.ua tld_qc.com tld_ru tld_ru.com tld_sa.com tld_sc tld_se.com tld_se.net tld_sh tld_so tld_su tld_tc tld_tel tld_tj tld_tk tld_tl tld_tm tld_travel tld_tv tld_tw tld_uk.com tld_uk.net tld_us tld_us.com tld_uy.com tld_vc tld_vg tld_ws tld_za.com tld_рф ">Все зоны (155)</option>
+
+							<option value="tld_ac">ac</option>
+							<option value="tld_ae.org">ae.org</option>
+							<option value="tld_ag">ag</option>
+							<option value="tld_am">am</option>
+							<option value="tld_asia">asia</option>
+							<option value="tld_at">at</option>
+							<option value="tld_be">be</option>
+							<option value="tld_biz">biz</option>
+							<option value="tld_biz.pl">biz.pl</option>
+							<option value="tld_biz.ua">biz.ua</option>
+							<option value="tld_br.com">br.com</option>
+							<option value="tld_bz">bz</option>
+							<option value="tld_cc">cc</option>
+							<option value="tld_ch">ch</option>
+							<option value="tld_cm">cm</option>
+							<option value="tld_co">co</option>
+							<option value="tld_co.am">co.am</option>
+							<option value="tld_co.at">co.at</option>
+							<option value="tld_co.cm">co.cm</option>
+							<option value="tld_co.in">co.in</option>
+							<option value="tld_co.nz">co.nz</option>
+							<option value="tld_co.ua">co.ua</option>
+							<option value="tld_co.uk">co.uk</option>
+							<option value="tld_com">com</option>
+							<option value="tld_com.ag">com.ag</option>
+							<option value="tld_com.am">com.am</option>
+							<option value="tld_com.cm">com.cm</option>
+							<option value="tld_com.co">com.co</option>
+							<option value="tld_com.es">com.es</option>
+							<option value="tld_com.hn">com.hn</option>
+							<option value="tld_com.ki">com.ki</option>
+							<option value="tld_com.kz">com.kz</option>
+							<option value="tld_com.lc">com.lc</option>
+							<option value="tld_com.mu">com.mu</option>
+							<option value="tld_com.mx">com.mx</option>
+							<option value="tld_com.pe">com.pe</option>
+							<option value="tld_com.pl">com.pl</option>
+							<option value="tld_com.pt">com.pt</option>
+							<option value="tld_com.sb">com.sb</option>
+							<option value="tld_com.sc">com.sc</option>
+							<option value="tld_com.tw">com.tw</option>
+							<option value="tld_com.ua">com.ua</option>
+							<option value="tld_cx">cx</option>
+							<option value="tld_de.com">de.com</option>
+							<option value="tld_es">es</option>
+							<option value="tld_eu">eu</option>
+							<option value="tld_eu.com">eu.com</option>
+							<option value="tld_firm.in">firm.in</option>
+							<option value="tld_fm">fm</option>
+							<option value="tld_gb.com">gb.com</option>
+							<option value="tld_gb.net">gb.net</option>
+							<option value="tld_gd">gd</option>
+							<option value="tld_gen.in">gen.in</option>
+							<option value="tld_gs">gs</option>
+							<option value="tld_hn">hn</option>
+							<option value="tld_ht">ht</option>
+							<option value="tld_hu.com">hu.com</option>
+							<option value="tld_im">im</option>
+							<option value="tld_in">in</option>
+							<option value="tld_ind.in">ind.in</option>
+							<option value="tld_info">info</option>
+							<option value="tld_info.pl">info.pl</option>
+							<option value="tld_io">io</option>
+							<option value="tld_jp">jp</option>
+							<option value="tld_jpn.com">jpn.com</option>
+							<option value="tld_ki">ki</option>
+							<option value="tld_kiev.ua">kiev.ua</option>
+							<option value="tld_kr.com">kr.com</option>
+							<option value="tld_kz">kz</option>
+							<option value="tld_la">la</option>
+							<option value="tld_lc">lc</option>
+							<option value="tld_li">li</option>
+							<option value="tld_lt">lt</option>
+							<option value="tld_lu">lu</option>
+							<option value="tld_md">md</option>
+							<option value="tld_me">me</option>
+							<option value="tld_me.uk">me.uk</option>
+							<option value="tld_mn">mn</option>
+							<option value="tld_mobi">mobi</option>
+							<option value="tld_ms">ms</option>
+							<option value="tld_mu">mu</option>
+							<option value="tld_mx">mx</option>
+							<option value="tld_name">name</option>
+							<option value="tld_net">net</option>
+							<option value="tld_net.ag">net.ag</option>
+							<option value="tld_net.am">net.am</option>
+							<option value="tld_net.cm">net.cm</option>
+							<option value="tld_net.co">net.co</option>
+							<option value="tld_net.hn">net.hn</option>
+							<option value="tld_net.in">net.in</option>
+							<option value="tld_net.ki">net.ki</option>
+							<option value="tld_net.lc">net.lc</option>
+							<option value="tld_net.mu">net.mu</option>
+							<option value="tld_net.nz">net.nz</option>
+							<option value="tld_net.pe">net.pe</option>
+							<option value="tld_net.pl">net.pl</option>
+							<option value="tld_net.sb">net.sb</option>
+							<option value="tld_net.sc">net.sc</option>
+							<option value="tld_nf">nf</option>
+							<option value="tld_no.com">no.com</option>
+							<option value="tld_nom.co">nom.co</option>
+							<option value="tld_nom.es">nom.es</option>
+							<option value="tld_nu">nu</option>
+							<option value="tld_or.at">or.at</option>
+							<option value="tld_org">org</option>
+							<option value="tld_org.ag">org.ag</option>
+							<option value="tld_org.am">org.am</option>
+							<option value="tld_org.es">org.es</option>
+							<option value="tld_org.hn">org.hn</option>
+							<option value="tld_org.in">org.in</option>
+							<option value="tld_org.ki">org.ki</option>
+							<option value="tld_org.kz">org.kz</option>
+							<option value="tld_org.lc">org.lc</option>
+							<option value="tld_org.mu">org.mu</option>
+							<option value="tld_org.nz">org.nz</option>
+							<option value="tld_org.pe">org.pe</option>
+							<option value="tld_org.pl">org.pl</option>
+							<option value="tld_org.sb">org.sb</option>
+							<option value="tld_org.sc">org.sc</option>
+							<option value="tld_org.tw">org.tw</option>
+							<option value="tld_org.uk">org.uk</option>
+							<option value="tld_pe">pe</option>
+							<option value="tld_pl">pl</option>
+							<option value="tld_pp.ua">pp.ua</option>
+							<option value="tld_qc.com">qc.com</option>
+							<option value="tld_ru">ru</option>
+							<option value="tld_ru.com">ru.com</option>
+							<option value="tld_sa.com">sa.com</option>
+							<option value="tld_sc">sc</option>
+							<option value="tld_se.com">se.com</option>
+							<option value="tld_se.net">se.net</option>
+							<option value="tld_sh">sh</option>
+							<option value="tld_so">so</option>
+							<option value="tld_su">su</option>
+							<option value="tld_tc">tc</option>
+							<option value="tld_tel">tel</option>
+							<option value="tld_tj">tj</option>
+							<option value="tld_tk">tk</option>
+							<option value="tld_tl">tl</option>
+							<option value="tld_tm">tm</option>
+							<option value="tld_travel">travel</option>
+							<option value="tld_tv">tv</option>
+							<option value="tld_tw">tw</option>
+							<option value="tld_uk.com">uk.com</option>
+							<option value="tld_uk.net">uk.net</option>
+							<option value="tld_us">us</option>
+							<option value="tld_us.com">us.com</option>
+							<option value="tld_uy.com">uy.com</option>
+							<option value="tld_vc">vc</option>
+							<option value="tld_vg">vg</option>
+							<option value="tld_ws">ws</option>
+							<option value="tld_za.com">za.com</option>
+							<option value="tld_рф">рф</option>
+  					</select>
+					<button name="check" type="submit"
+					class="button-20 button-green-forward"><b
+    					title="Проверить">Проверить</b></button>
+    			</div>
+    				<div class="over9000">
+						<a href="/newdomain/index">
+							<span>Более</span> <big>150</big>
+							<span>доменных зон для регистрации, цены, условия</span>
+						</a>
+					</div>
+				</div>
+				</form>
+
+				<h3><a href="/newdomain/index" style="color:#0C4B7F;">Зарегистрировать домен</a></h3>
+
+				<ul class="links">
+					<li><a href="/newdomain/freeing_domains">Освобожденные домены</a></li>
+					<li><a href="/newdomain/choose">Сервисы помощи в подборе имени</a></li>
+					<li><a href="/newdomain/suggest-variants">Премиум домены</a></li>
+					<li><a href="/service/guarantee">Гарант сделки по доменному имени</a></li>
+					<li><a href="/newdomain/bulk">Оптовая регистрация</a></li>
+					<li><a href="/service/sms">Удобные SMS-сервисы для доменов</a></li>
+					<li><a href="/newdomain/rereg">Освобождающиеся домены</a></li>
+					<li><a href="/whois/index">Информация о домене (WhoIs)</a></li>
+				</ul>
+
+				<p class="explain"><span class="star">*</span> Крупнейший по объему регистраций доменов .RU за 2010 год. </p>
+		    </div>
+		    <!--  / DNAME -->
+
+		    <!-- MAIL -->
+			<div id="promo-mail" class="promo">
+		    	<div class="margin-right">
+					<h1>
+						<img src="/i/promo/mail/yandex-big.png" alt="Яндекс.Почта" />
+						для домена
+					</h1>
+				    <h2>Экслюзивно и только в REG.RU</h2>
+			    	<p>
+						Бесплатно для любого домена зарегистрированного или
+						находящегося на обслуживании в REG.RU
+					</p>
+				</div>
+
+				<div class="margin-left">
+					<ul class="markercheckbox_smooth">
+						<li>1000 почтовых ящиков на своем домене</li>
+						<li>
+							Уникальный удобный веб-интерфейс
+							<img src="/i/promo/mail/yandex-small.png" alt="Яндекс.Почта" />
+						</li>
+						<li>Скажите нет спаму и вирусам</li>
+						<li>Неограниченный объем диска</li>
+						<li>Бесплатно для любого количества писем</li>
+					</ul>
+
+					<a class="button-20 button-green-forward" href="http://www.reg.ru/service/yandex_mail_promo"><b
+						title="Узнать больше и подключить прямо сейчас"
+						>Узнать больше и подключить прямо сейчас</b></a>
+				</div>
+		    </div>
+		    <!-- /MAIL -->
+		    <!-- PLESK -->
+			<div id="promo-plesk" class="promo">
+		    	<div class="margin-right">
+					<script type="text/javascript">
+					$('document').ready(function(){
+					    if(browser_info.opera){
+						$('#promo-plesk p,#promo-plesk h2').css('letter-spacing','-1px');
+						$('#promo-plesk ul').css('font-size','10px');
+					    }
+					});
+					</script>
+					
+					
+					<h2>
+						Конструктор сайтов
+						<img src="/i/promo/plesk/plesk_header.gif" alt="Plesk Sitebuilder" />
+					</h2>
+			    	<p>
+						Простое в использовании и гибкое веб-приложение,
+						предназначенное для создания и управления веб-сайтами.
+					</p>
+				</div>
+
+				<div class="margin-left">
+					<img src="/i/promo/plesk/steps.gif" style="margin-bottom: 1em">
+					<ul class="markercheckbox_smooth">
+						<li>Кроме конструктора Вы получаете хостинг<br/>по тарифу Host-Lite бесплатно!</li>
+						<li>Также, Вы получаете конструктор сайтов<br/>в комплекте с любым другим тарифом<br/>хостинга на платформе Plesk.</li>
+						<li>Конструктор сайтов снабжен множеством шаблонов</li>
+					</ul>
+
+					<a class="button-20 button-green-forward" href="http://www.reg.ru/service/plesk_sitebuilder"><b
+						title="Узнать больше и купить прямо сейчас"
+						>Узнать больше и купить прямо сейчас</b></a>
+				</div>
+		    </div>
+		    <!-- /PLESK -->
+		    <!-- HOST -->
+		    <div id="promo-host" class="promo">
+		    	<h1>Хостинг-площадка REG.RU</h1>
+		    	<h2>Выберите отличный сервис и профессиональное качество</h2>
+		    	<img class="price" src="/i/promo/host/price.png" alt="" />
+			<img class="discount" src="/i/promo/discount-20.png" alt="Скидки до 20%" />
+		    	<div class="margin-left">
+					<ul class="markercheckbox_smooth">
+						<li>Высокое качество услуги</li>
+						<li>Удобные панели управления <img src="/i/promo/host/isp.png" alt="ISP Manager" title="ISP Manager" class="isp" /> <img src="/i/icon/hosting/cpanel_logo_32.gif" alt="CPanel" title="CPanel" class="cpanel" height="22" /> <img src="/i/icon/hosting/plesk_sitebuilder.png" alt="Plesk" title="Plesk" class="cpanel" height="22" /></li>
+						<li>Широкие и быстрые каналы связи</li>
+						<li>Ежедневное резервирование данных</li>
+						<li>Неограниченный трафик</li>
+						<li>Качественная техническая поддержка</li>
+						<li>Защита от спама и вирусов</li>
+						<li>Собственная система почты или <img src="/i/promo/host/yandex.png" alt="Яндекс.Почта" class="yandex" /></li>
+					</ul>
+
+					<a class="button-20 button-green-forward" href="http://hosting.reg.ru/"><b
+						title="Узнать больше и заказать прямо сейчас"
+						>Узнать больше и заказать прямо сейчас</b></a>
+				</div>
+		    </div>
+		    <!-- / HOST -->
+
+		    <!-- VPS -->
+		    <div id="promo-vps" class="promo">
+		    	<h1>Виртуальные серверы VPS от REG.RU</h1>
+		    	<h2>Высокая скорость работы, доступная стоимость<br />
+				и возможность тонкого тюнинга под свои задачи</h2>
+				<img src="/i/promo/vps/350.png" alt="" class="price" />
+				<img class="discount" src="/i/promo/discount-20.png" alt="Скидки до 20%" />
+				<div class="margin-left">
+					<ul class="markercheckbox_smooth">
+						<li>Моментальная активация</li>
+						<li>
+							Возможность мгновенного
+							<br />увеличения мощности
+						</li>
+						<li>Неограниченный трафик</li>
+						<li>8 вариантов предустанавливаемых ОС</li>
+						<li>Большой выбор дополнительных услуг</li>
+					</ul>
+					<a class="button-20 button-green-forward" href="http://hosting.reg.ru/vps/"><b
+						title="Узнать больше и заказать прямо сейчас"
+						>Узнать больше и заказать прямо сейчас</b></a>
+				</div>
+		    </div>
+		    <!-- / VPS -->
+
+		    <!-- DEDIC -->
+		    <div id="promo-dedic" class="promo">
+		    	<h1>Аренда серверов Dedicated от&nbsp;REG.RU</h1>
+		    	<h2>Богатый выбор конфигураций серверов имеющихся<br />в&nbsp;наличии, доступная стоимость и&nbsp;качественная поддержка</h2>
+				<img src="/i/promo/dedic/2400.png" alt="" class="price" title="Выгодные тарифы от 2400 руб./мес."/>
+				<div class="margin-left">
+					<ul class="markercheckbox_smooth">
+						<li>Активация сервера в&nbsp;день обращения</li>
+						<li>1&nbsp;000&nbsp;Гб трафика ежемесячно включены в&nbsp;стоимость</li>
+						<li>Широкий спектр ОС к&nbsp;установке по&nbsp;умолчанию и&nbsp;возможность установить собственную ОС</li>
+						<li>Большой выбор дополнительных услуг</li>
+						<li>Круглосуточная служба поддержки</li>
+						<li>Быстрые каналы связи</li>
+					</ul>
+					<a class="button-20 button-green-forward" href="http://hosting.reg.ru/dedicated/"><b
+						title="Узнать больше и заказать прямо сейчас"
+						>Узнать больше и заказать прямо сейчас</b></a>
+				</div>
+		    </div>
+		    <!-- / DEDIC -->
+
+		    <!-- SSL -->
+		    <div id="promo-ssl" class="promo">
+			<h1>SSL-сертификаты Thawte</h1>
+			<h2>Популярные SSL-сертификаты от&nbsp;Thawte&nbsp;&mdash; ведущего<br />сертификационного центра в&nbsp;мире.</h2>
+			<div class="margin-left">
+				<ul class="markercheckbox_smooth">
+					<li>Высочайший уровень доверия<br />к&nbsp;сертификатам Thawte</li>
+					<li>Более миллиона выданных сертификатов<br />по&nbsp;всему миру (1&nbsp;место)</li>
+					<li>Полный спектр SSL-сертификатов</li>
+					<li>Высокая оперативность при&nbsp;выпуске<br />сертификата</li>
+					<li>Помощь в&nbsp;выборе и&nbsp;получении<br />на&nbsp;русском языке</li>
+					<li>Наилучшее соотношение цена/качество</li>
+				</ul>
+				<a class="button-20 button-green-forward" href="/sslcertificate/"><b
+					title="Узнать больше и заказать прямо сейчас"
+					>Узнать больше и заказать прямо сейчас</b></a>
+			</div>
+		    </div>
+		    <!-- / SSL -->
+
+			<!-- DUBBY -->
+			<div id="promo-dubby" class="promo">
+				<!--img class="bg" src="/i/promo/dubby/bg.jpg" alt="" /-->
+				<h1>
+					REG.RU представляет
+					<img src="/i/promo/dubby/dubby.png" alt="Dubby" />
+				</h1>
+				<h2>
+					Dubby.ru&nbsp;&mdash; это уникальный веб-сервис,
+					призванный улучшить опыт<br />
+					и&nbsp;повысить комфорт пребывания
+					пользователей в&nbsp;интернет-среде.
+				</h2>
+				<ul class="markercheckbox_smooth">
+					<li>
+						Собрать Ваши социальные сети<br />
+						на собственном микропортале<br />
+						или странице-визитке
+					</li>
+					<li>
+						Использовать короткие домены вместо<br />
+						длинных веб-адресов
+					</li>
+					<li>
+						Подключить <img src="/i/promo/dubby/yandex.png" alt="Яндекс.Почту" /> прямо к своему<br />
+						домену
+					</li>
+					<li>
+						Это и многое другое в интеллектуальном<br />
+						сервисе Дабби
+					</li>
+				</ul>
+				<a class="button-20 button-green-forward" href="http://www.dubby.ru" rel="blank"><b
+					title="Узнать больше и подружиться с Дабби прямо сейчас"
+					>Узнать больше и подружиться с Дабби прямо сейчас</b></a>
+			</div>
+			<!-- / DUBBY -->
+
+
+			<div class="lt">&nbsp;</div>
+			<div class="lb">&nbsp;</div>
+			<div class="rb">&nbsp;</div>
+		</div>
+
+		<ul class="selector">
+			<li class="active">
+				<a href="#promo-dname">
+					<span class="img">
+						<span class="spr-dname"></span><!--img src="/i/promo-selector/dname.png" alt="" /-->
+					</span>
+					<strong>Доменные имена</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			
+			<li>
+				<a href="#promo-rf">
+					<span class="img">
+						<span class="spr-rf"></span><!--img src="/i/promo-selector/rf.png" alt="" /-->
+					</span>
+					<strong>Домены .РФ и .RU</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>			
+			<li>
+				<a href="#promo-mail">
+					<span class="img">
+						<span class="spr-mail"></span><!--img src="/i/promo-selector/mail.png" alt="" /-->
+					</span>
+					<strong>Бесплатная Почта</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			<li>
+				<a href="#promo-plesk">
+					<span class="img">
+						<span class="spr-plesk"></span>
+					</span>
+					<strong>Конструктор сайтов</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			<li>
+				<a href="#promo-host">
+					<span class="img">
+						<span class="spr-host"></span><!--img src="/i/promo-selector/host.png" alt="" /-->
+					</span>
+					<strong>Хостинг</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			<li>
+				<a href="#promo-vps">
+					<span class="img">
+						<span class="spr-vps"></span><!--img src="/i/promo-selector/vps.png" alt="" /-->
+					</span>
+					<strong>Виртуальные серверы VPS</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			<li>
+				<a href="#promo-dedic">
+					<span class="img">
+						<span class="spr-dedic"></span><!--img src="/i/promo-selector/dedic.png" alt="" /-->
+					</span>
+					<strong>Серверы Dedicated</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			<li>
+				<a href="#promo-ssl">
+					<span class="img">
+						<span class="spr-ssl"></span><!--img src="/i/promo-selector/ssl.png" alt="" /-->
+					</span>
+					<strong>SSL-сертификаты Thawte</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			<li>
+				<a href="#promo-dubby">
+					<span class="img">
+						<span class="spr-dubby"></span><!--img src="/i/promo-selector/dubby.png" alt="" /-->
+					</span>
+					<strong>Интел&shy;лектуальные сервисы</strong>
+				</a>
+				<span class="arrow">&nbsp;</span>
+			</li>
+			<li class="rt">&nbsp;</li>
+			<li class="rb">&nbsp;</li>
+		</ul>
+
+		<div class="promo-banner-wrap-rf">
+		    <span class="promo-banner-rf">
+			
+			<img src="/i/promo-banner-rf/small-15-ru.jpg" alt="15% скидка на хостинг при покупке хостинга и домена одновременно" class="regnow" />
+		    </span>
+		</div>
+	</div>
+	
+<script type="text/javascript">
+    <!--
+    $(function(){
+	    setTimeout(function(){
+		$('#promo-rf').css('background','url("/i/promo/rf/bg.jpg") no-repeat 0 0');
+		$('#promo-mail').css('background','url("/i/promo/mail/bg.jpg") no-repeat 0 0');
+		$('#promo-plesk').css('background','url("/i/promo/plesk/bg.jpg") no-repeat 0 0');
+		$('#promo-host').css('background','url("/i/promo/host/bg.jpg")  no-repeat -10px 0');
+		$('#promo-vps').css('background','url("/i/promo/vps/bg.jpg") no-repeat -10px 0');
+		$('#promo-dedic').css('background','url("/i/promo/dedic/bg.jpg") no-repeat -20px 0');
+		$('#promo-ssl').css('background','url("/i/promo/ssl/bg.jpg") no-repeat 0 0');
+		$('#promo-dubby').css('background','url("/i/promo/dubby/bg.jpg") no-repeat 0 0');
+	    },0);
+    });
+    // -->
+</script>
+
+
+
+
+
+    <table id="mainpage_news_block" class="grey_border">
+
+      <tr>
+	<th class="lt"></th>
+	<th id="mainpage_news_block_head_news_title">
+	   
+	    Новости&nbsp;REG.RU
+	</th>
+
+
+	<th id="mainpage_news_block_head_news_archive">
+	  <a href="/news/">Архив новостей</a>
+	  &nbsp;
+	  &nbsp;
+
+	  <a href="/news/rss">
+	    <img src="i/icon/feed-icon-14x14.png" width="14" height="14" alt="RSS feed" style="margin-bottom: -3px;" />
+	  </a>
+	</th>
+	<th class="rt"></th>
+	<td class="spacer">&nbsp;</td>
+	<th class="lt"></th>
+	<th id="mainpage_news_block_head_news_events">
+		
+		<a href="/news/?groupid=8">Все мероприятия</a>
+		<span>Мероприятия</span>
+	</th>
+	<th class="rt"></th>
+      </tr>
+
+	<tr>
+	  <td class="l"></td>
+	  <td class="piece_of_news">
+
+	    <span class="news_date">29 июля 2011 г.</span><br />
+	    <a href="/news/#966" class="news_title">Сведения о зарегистрированных доменах в зонах .RU / .SU / .РФ в сервисе REG.Choice</a>
+	  </td>
+	  <td class="piece_of_news">
+	    <span class="news_date">26 июля 2011 г.</span><br />
+	    <a href="/news/#962" class="news_title">Дополнительные функции в управлении доменной зоной</a>
+	  </td>
+	  <td class="r"></td>
+	  <td></td>
+	  <td class="l"></td>
+	  <td class="piece_of_news piece_of_news_event">
+	    <span class="news_date">20-21 июля, Москва</span><br />
+	    <a href="/news/?groupid=8#963" class="news_title">Подведены итоги московского форума «Инновации для бизнеса»</a>
+	  </td>
+	  <td class="r"></td>
+	</tr>
+	<tr>
+	  <td class="lb"></td>
+
+	  <td class="b piece_of_news">
+	    <span class="news_date">29 июля 2011 г.</span><br />
+	    <a href="/news/#964" class="news_title">Поздравляем с Днем системного администратора!</a>
+	  </td>
+	  <td class="b piece_of_news">
+	    <span class="news_date">21 июля 2011 г.</span><br />
+	    <a href="/news/#960" class="news_title">Новые возможности сервиса Whois от компании REG.RU</a>
+
+	  </td>
+	  <td class="rb"></td>
+	  <td></td>
+	  <td class="lb"></td>
+	  <td class="b piece_of_news piece_of_news_event">
+	    <span class="news_date">26-28 августа, Севастополь</span><br />
+	    <a href="/news/?groupid=8#961" class="news_title">Международная конференция Startup Weekend в Севастополе</a>
+	  </td>
+	  <td class="rb"></td>
+	</tr>
+    </table>
+
+
+
+<div class="content-banner content-banner-in-the-middle">
+    <div class="banner-wrap">
+	<div style="height:127px;">&nbsp;</div>
+    </div>    
+    <script type="text/javascript">
+    <!--
+    $(function(){
+
+    
+    
+	var banner = ' <a href="http://simaphone.reg.ru/" title="Эксклюзивная серия SimaPhone 4 .РФ с дизайном DENIS SIMACHЁV" >' +
+		     '<img width="100%" height="127" src="/i/informers/simaphone.jpg" alt="Эксклюзивная серия SimaPhone 4 .РФ с дизайном DENIS SIMACHЁV"/>' +
+		     '</a>';
+    
+        $('.content-banner-in-the-middle .banner-wrap').html(banner);
+    });
+    -->
+    </script> 
+
+      <div class="content-banner-lt"></div>
+      <div class="content-banner-lb"></div>
+      <div class="content-banner-rt"></div>
+      <div class="content-banner-rb"></div>
+
+   </div>
+
+
+<div id="reg_features">
+<table>
+      <tr class="even first">
+	<td style="width: 20%" class="left">
+	  <a href="/about/features">
+	    <div class="spr-icon_name_regru"></div>
+	  </a>
+	</td>
+	<td class="big_text" style="width: 40%">
+	  <a href="/about/features">100+ фишек Reg.Ru</a>
+	</td>
+	<td style="padding: 0; width: 1.5%">&nbsp;</td>
+	<td class="right" style="padding-left: 0">Инновации REG.RU перевернут ваше понимание об удобстве</td>
+      </tr>      <tr class="odd">
+	<td class="left">
+	  <a href="http://software.reg.ru/" rel="blank">
+	    <div class="spr-icon_arrow_png24"></div>
+	  </a>
+	</td>
+	<td class="big_text">
+	  <a href="http://software.reg.ru/" rel="blank">
+	   Software.Reg.Ru
+	  </a>
+	</td>
+	<td style="padding: 0;">&nbsp;</td>
+	<td class="right" style="padding-left: 0">Специализированное программное обеспечение для профессионалов доменного рынка</td>
+      </tr>      <tr class="even">
+	<td class="left">
+	  <a href="javascript://" onclick="addEngine();">
+	    	    <div class="spr-icon_firefox"></div>
+	  </a>
+	</td>
+	<td class="big_text">
+	  <a href="javascript://" onclick="addEngine();">Reg.Бар для Firefox</a>
+	  <!-- try Reg.beer :) in the Reg.bar -->
+	</td>
+	<td style="padding: 0;">
+        <div class="spr-blue_bullet_l"></div>
+        </td>
+	<td class="right" style="padding-left: 0">
+	  <div style="margin-left: -10px;">
+	    <a href="javascript://" onclick="addEngine();">Установить Reg.Бар</a>
+	  </div>
+	</td>
+      </tr>      <tr class="odd">
+	<td class="left" rowspan="2">
+	  <a href="/news/innovations">
+	    <div class="spr-icon_medal_1"></div>
+	  </a>
+	</td>
+	<td class="big_text" rowspan="2">
+	  <a href="/news/innovations">Инновации Reg.Ru</a>
+	</td>
+	<td style="padding: 0;">
+        <img src="/i/style/first/glamor/blue_bullet_l.gif" alt="" />
+        </td>
+	<td class="right" style="padding-left: 0">
+	  <div style="margin-left: -10px;">
+	    <a href="/news/innovations">	      Однокликовая регистрация доменного имени	    </a>
+	  </div>
+	</td>
+      </tr>
+      <tr class="odd">
+	<td style="padding: 0;">
+        <img src="/i/style/first/glamor/blue_bullet_l.gif" alt="" /></td>
+	<td class="right" style="padding-left: 0">
+	  <div style="margin-left: -10px;">
+	    <a href="/news/innovations">	      Система автоматической регистрации доменов REG.Panel	    </a>
+	  </div>
+	</td>
+      </tr>
+       <tr class="even ">
+	<td class="left">
+	  <a href="/announce/insurance">
+        <div class="spr-icon_ingosstrah"></div>
+	  </a>
+	</td>
+	<td class="big_text">
+	  <a href="/announce/insurance">Reg.Ru = надежность
+	    <span style="vertical-align:super; font-size: smaller">2</span>
+	  </a>
+	</td>
+	<td style="padding: 0;">&nbsp;</td>
+	<td class="right" style="padding-left: 0">Профессиональная ответственность Reg.Ru застрахована на 1.000.000 долларов</td>
+      </tr>
+
+      <tr class="odd last">
+	<td class="left">
+	  <a href="http://skidki.reg.ru" rel="blank">
+	    <div class="spr-skidki_icon"></div>
+	  </a>
+	</td>
+	<td class="big_text">
+	  <a href="http://skidki.reg.ru" rel="blank">Скидки клиентам</a>
+	</td>
+	<td style="padding: 0;">&nbsp;</td>
+	<td class="right" style="padding-left: 0">
+	 Скидки клиентам REG.RU в ведущих компаниях и интернет-магазинах на товары и услуги!
+	</td>
+      </tr>
+
+    </table>
+</div>
+
+    <a name="mediateka"></a>
+<div id="medialib" class="glamor_block_grey_title">
+    <h3 class="title"><span>МЕДИАТЕКА</span></h3>
+	<div class="selector">
+		<div class="overflow">
+		<div class="carousel">
+			<!-- пробелов между </a><a> быть не должно -->
+			<a href="#movie0" class="media_icon_1">
+				<span class="img"><span class="up">&nbsp;</span></span>
+				<strong>Прикол:<br />человек-чебурек.рф</strong>
+			</a><a href="#movie1" class="media_icon_2">
+				<span class="img"><span class="up">&nbsp;</span></span>
+				<strong>Вассерман и&nbsp;домен&nbsp;.РФ</strong>
+			</a><a href="#movie5" class="media_icon_3">
+				<span class="img"><span class="up">&nbsp;</span></span>
+				<strong>Троллинг (Домен&nbsp;.РФ) Pr-Mex</strong>
+			</a><a href="http://itunes.apple.com/us/app/reg-ru/id414207282?mt=8" rel="blank" class="media_icon_4">
+				<span class="img"></span>
+				<strong>Приложение REG.RU для&nbsp;iPhone</strong>
+			</a><a href="/service/mobile" class="media_icon_5">
+				<span class="img"></span>
+				<strong>Приложение REG.RU для&nbsp;Android</strong>
+			</a><a href="http://domainergame.ru/" rel="blank" class="media_icon_6">
+				<span class="img"></span>
+				<strong>Онлайн-игра &laquo;Домейнер&raquo;</strong>
+			</a><a href="#movie2" class="media_icon_7">
+				<span class="img"><span class="up">&nbsp;</span></span>
+				<strong>Домены&nbsp;.РФ: история буквы&nbsp;&laquo;Ж&raquo;</strong>
+			</a><a href="#movie3" class="media_icon_8">
+				<span class="img"><span class="up">&nbsp;</span></span>
+				<strong>Домены&nbsp;.РФ: история буквы&nbsp;&laquo;Ч&raquo;</strong>
+			</a><a href="#movie4" class="media_icon_9">
+				<span class="img"><span class="up">&nbsp;</span></span>
+				<strong>Домены&nbsp;.РФ: история буквы&nbsp;&laquo;Ш&raquo;</strong>
+			
+			</a>
+		</div>
+		</div>
+		<a href="#" class="prev inactive">&nbsp;</a>
+		<a href="#" class="next">&nbsp;</a>
+	</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var $medialib = $('#medialib');
+		
+		$('.carousel a', $medialib).click(function(){
+			var title, url, p;
+			if ($(this).hasClass('active'))
+				return false;
+			var href=$(this).attr('href');
+			if (/^#/.test(href) && !($(this).attr('rel') == 'blank')) {
+				("https:" == document.location.protocol)? p = 'https': p = 'http';
+				switch(href) {
+					case '#movie0':
+					title = 'Прикол: человек-чебурек.рф';
+					url = '\"' + p + '://www.youtube.com/v/uHcYMx6665E?fs=1&amp;hl=ru_RU\"';
+					break;
+					case '#movie1':
+					title = 'Вассерман и&nbsp;домен&nbsp;.РФ';
+					url = '\"' + p + '://www.youtube.com/v/T2bIKC945f4?fs=1&amp;hl=ru_RU\"';
+					break;
+					case '#movie2':
+					title = 'Домены&nbsp;.РФ: история буквы&nbsp;&laquo;Ж&raquo;';
+					url = '\"' + p + '://www.youtube.com/v/ZGYUDSHzVdQ?fs=1&amp;hl=ru_RU\"';
+					break;
+					case '#movie3':
+					title = 'Домены&nbsp;.РФ: история буквы&nbsp;&laquo;Ч&raquo;';
+					url = '\"' + p + '://www.youtube.com/v/trZdxHyJBx8?fs=1&amp;hl=ru_RU\"';
+					break;
+					case '#movie4':
+					title = 'Домены&nbsp;.РФ: история буквы&nbsp;&laquo;Ш&raquo;';
+					url = '\"' + p + '://www.youtube.com/v/BNoRkfaeGvQ?fs=1&amp;hl=ru_RU\"';
+					break;
+					case '#movie5':
+					title = 'Троллинг (Домен .РФ) Pr-Mex';
+					url = '\"' + p + '://www.youtube.com/v/NqIlGZkiUpo?fs=1&amp;hl=ru_RU\"';
+					break;
+					default:
+					title = 'Прикол: человек-чебурек.рф';
+					url = '\"' + p + '://www.youtube.com/v/uHcYMx6665E?fs=1&amp;hl=ru_RU\"';
+				}
+				var code = '<div class=\"player\" id=\"' + href.replace('#','') +'\"><h3>'+ title +'</h3><object width=\"640\" height=\"385\"><param name=\"wmode\" value=\"opaque\" /><param name=\"movie\" value=' + url + ' /><param name=\"allowFullScreen\" value=\"true\" /><param name=\"allowscriptaccess\" value=\"always\" /><embed src=' + url + ' type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"640\" height=\"385\" wmode=\"opaque\"></embed></object></div>';
+				if (!$('.player-active', $medialib).length) {
+					$('div.selector').after(code);
+					$(href, $medialib).show(100).addClass('player-active');
+				} else {
+					$('.player-active', $medialib).remove();
+					$('div.selector').after(code);
+					$(href, $medialib).addClass('player-active');
+				}
+				$(this).siblings('.active').removeClass('active').end().addClass('active');
+				return false;
+			}
+		});
+			
+		var $car  = $medialib.find('.carousel');
+		var frame = $medialib.find('.overflow').width(); 	    
+		$('.next, .prev', $medialib).click(function(){
+			var width = $car.width();
+			var step  = 120;
+			
+			if ($car.is(':animated') || $(this).hasClass('inactive'))
+					return false;
+				
+			var left = $car.position().left;
+				
+			if ($(this).hasClass('prev')) {
+				if (left < 0) {
+					left += step;
+					$('.next.inactive', $medialib).removeClass('inactive');
+					if (left == 0)
+						$(this).addClass('inactive'); 
+				}
+			} else {
+				if (left > 0 - width + step) {
+					left -= step;
+					$('.prev.inactive', $medialib).removeClass('inactive');
+					if (left + width == frame)
+						$(this).addClass('inactive'); 
+				}
+			
+			}
+			
+			$car.animate({
+				left: left
+			}, 400);
+		
+			return false;
+		});
+	});
+</script>
+
+
+    <script type="text/javascript">
+	var d = new Date();
+	var m = month( 0 , "");
+	var mpr = month( +1, "");
+    </script>
+
+    
+    
+
+<div id="regrost">
+<table>
+      <tr>
+	<td class="bb big_text" colspan="2">
+	 Reg-рост продолжается!
+	</td>
+	<td class="bb big_text" colspan="2">
+	  <a href="http://stat.reg.ru/" rel="blank">	     Узнай больше на stat.reg.ru	  </a>
+	</td>
+      </tr>
+      <tr>
+	<td class="bb stat_table" style="width: 28.5%">
+	  <div class="titles">
+	    <h2>Общее число доменов,</h2>зарегистрированных в зоне RU 	      <br />
+	      <span style="font-size:.83em;">(Ru.Center/Nic.Ru, Reg.Ru, R01, Naunet, Regtime)</span>	  </div>
+	</td>
+	<td class="bb stat_table result">3&nbsp;363&nbsp;466</td>
+	<td class="bb stat_table">
+	  <div class="titles">
+	    <h2>Число доменов,</h2>
+	    зарегистрированных в прошлом месяце
+	    (<script type="text/javascript">document.write(mpr[d.getMonth()])</script>)	      <br />
+	      <span style="font-size:.83em;">(Руцентр/Ник.Ру, Reg.Ru, R01, Naunet, Regtime/Webnames)</span>	  </div>
+	</td>
+	<td class="bb stat_table result">27&nbsp;026</td>
+      </tr>
+      <tr>
+	<td class="bb">
+	  <div class="titles">
+	    <h2>Рост рынка</h2>
+	    регистрации доменов в 2010 г., %
+	  </div>
+	</td>
+	<td class="bb result">123%</td>
+	<td class="bb">
+	  <div class="titles">
+	    <h2>Число доменов,</h2>
+	    зарегистрированных в этом месяце
+	    (<script type="text/javascript">document.write(m[d.getMonth()])</script>)
+	  </div>
+	</td>
+	<td class="bb result">32&nbsp;248</td>
+      </tr>
+      <tr>
+	<td>
+	  <div class="titles">
+	    <h2>Прирост</h2>
+	    зарегистрированных доменов за 2011г.
+	  </div>
+	</td>
+	<td class="result">234&nbsp;807</td>
+	<td>
+	  <div class="titles">
+	    <h2>Прогноз роста в 2011г.</h2>
+	    по данным Reg.ru, % 
+	  </div>
+	</td>
+	<td class="result">140%</td>
+       </tr>
+</table>
+</div>
+
+
+<!-- footer_screen -->
+        <!--index-->
+        
+            
+	    <script type="text/javascript">
+	    $(function(){
+		// YaShare
+		$.ajax({
+		    type:      'GET',
+		    url:       '//yandex.st/share/share.js',
+		    error:     function() {
+			    throw "Unable to load share.js.";
+		    },
+		    dataType:  'script',
+		    cache:     true
+		});
+	    });
+	    </script>
+	    
+	    
+	    <script type="text/javascript">
+		<!--
+		$(function(){
+			setTimeout(function(){
+			    $('#share-after').after("<div class=\"posrel_share\"><div class=\"yashare-auto-init addthis_toolbox\" data-yashareType=\"link\" data-yashareQuickServices=\"yaru,vkontakte,facebook,twitter,odnoklassniki,moimir,friendfeed,lj\"></div></div>");
+			},0);
+		});
+		// -->
+	    </script>
+	    <div id="share-after"></div>      
+	        
+	
+	
+        </div>
+            <!-- / content -->
+            <!--[if lte IE 6]><div id="content-ie6-fix"></div><![endif]-->
+        
+          </div>
+	<!-- corners -->
+        <div id="wrapper-lt"></div>
+        <div id="wrapper-rt"></div>
+        <div id="wrapper-lb"></div>
+        <div id="wrapper-rb"></div>
+
+
+        <!-- /corners -->
+      </div>
+    </div>
+  <!-- /main -->
+
+
+<!-- footer -->
+  <div id="footer">
+  <div class="content-block">
+    <table>
+      <tr>
+        <td class="info"><h2 style="width: 11.5em;">ИНФОРМАЦИЯ</h2></td>
+        <td class="info"><h2 >УСЛУГИ REG.RU</h2></td>
+        <td class="info"><h2 style="width: 11em;">&nbsp;</h2></td>
+        <td class="info"><h2 style="width: 24em;">REG.RU В ПОПУЛЯРНЫХ СЕРВИСАХ</h2></td> 
+      </tr>
+      <tr>
+      <td class="info" style="width: 21%;">
+        <ul>
+    <li><a href="http://www.reg.ru/retail/index">Для розничных Клиентов</a></li>
+    <li><a href="http://www.reg.ru/reseller/index">Для Партнеров</a></li>
+    <li><a href="http://www.reg.ru/for_professionals">Для Профессионалов</a></li>
+    <li><a href="http://www.reg.ru/retail/documents">Договоры и письма</a></li>
+    <li><a href="http://software.reg.ru" rel="blank">REG.Panel</a></li>
+	  <li><a href="http://www.reg.ru/reseller/API-tech">REG.API: v1</a></li>
+	  <li><a href="http://www.reg.ru/reseller/API2-tech">REG.API: v2</a></li>
+
+    <li><a href="http://www.reg.ru/help/index">Инструкции и FAQ</a></li>        </ul>
+      </td>
+      <td class="info" style="width: 19%;">
+        <ul>
+    <li><a href="http://www.reg.ru/newdomain/index">Зарегистрировать домен</a></li>
+    <li><a href="http://hosting.reg.ru/">Хостинг сайтов</a></li>
+    <li><a href="http://hosting.reg.ru/vps/">Виртуальные серверы VPS</a></li>
+    <li><a href="http://hosting.reg.ru/dedicated/">Физические серверы Dedicated</a></li>
+    <li><a href="http://www.reg.ru/sslcertificate">SSL-сертификаты Thawte</a></li>
+    <li><a href="http://www.reg.ru/newdomain/bulk">Оптовая регистрация</a></li>
+    <li><a href="http://www.reg.ru/newdomain/choose">Подобрать домен</a></li>
+    <li><a href="http://www.reg.ru/domain/transfer">Перенести домен</a></li>
+    <li><a href="http://www.reg.ru/newdomain/rereg">Освобождающиеся домены</a></li>
+    <li><a href="http://www.reg.ru/newdomain/freeing_domains">Освобождённые домены</a></li>
+        </ul>
+      </td>
+      <td class="info" style="width: 26%;" >
+        <ul>
+    <li><a href="http://www.reg.ru/newdomain/suggest-variants">Премиум-домены</a></li>
+    <li><a href="http://www.reg.ru/whois/index">Whois РФ / RU и др.</a></li>
+    <li><a href="http://www.reg.ru/service/get_wm_att">Получить WM-аттестат</a></li>
+    <li><a href="http://www.reg.ru/service/guarantee">Гарант сделки по домену</a></li>
+    <li><a href="http://www.reg.ru/help/jservice">Юридические услуги</a></li>
+    <li><a href="http://www.reg.ru/service/sms">SMS-сервисы</a></li>
+    <li><a href="http://www.reg.ru/user/affiliate/promo">Реферальная программа</a></li>
+    <li><a href="http://www.reg.ru/prices/index">Стоимость услуг</a></li>
+        </ul>
+      </td>
+      <td class="legal" >
+        <p class="socials">
+		<a href="http://www.youtube.com/user/regruvideo" class="youtube" title="" rel="blank">&nbsp;</a>        
+		<a href="http://habrahabr.ru/company/regru/blog/" class="habrahabr" title="" rel="blank">&nbsp;</a>
+		<a href="http://vkontakte.ru/club16725543" class="vkontakte" title="" rel="blank">&nbsp;</a>
+		<a href="http://www.facebook.com/pages/Registracia-domenov-hosting-VPS-ot-kompanii-Regru/104499519617024" class="facebook" title="" rel="blank">&nbsp;</a>
+		<a href="http://twitter.com/#!/regru" class="twitter" title="" rel="blank">&nbsp;</a>
+		<a href="http://professionali.ru/GroupInfo/11026" class="professionali" rel="blank">&nbsp;</a>
+        </p>
+       <p>	 Все права на&nbsp;материалы, находящиеся на&nbsp;сайте, охраняются в&nbsp;соответствии с&nbsp;законодательством РФ.
+	 При&nbsp;любом использовании материалов сайта, письменное согласие обязательно.
+	 Торговые марки, логотипы и&nbsp;марки услуг, размещенные на&nbsp;данном сайте, являются собственностью
+	 ООО &laquo;Регистратор доменных имен РЕГ.РУ&raquo; или третьих лиц.       </p>
+
+	<a id="friendlyrunet-logo" href="http://www.friendlyrunet.ru/">
+	  <img src="/i/logo/friendlyrunet.png" alt="friendlyrunet.ru" />	  Фонд &laquo;Содействие развитию сети Интернет "Дружественный рунет"&raquo;	</a>
+	
+	<a id="cetis-logo" href="http://www.cetis.ru">
+          <img src="/i/logo/cetis-logo.gif" alt="cetis.ru" />	 Разработка концепции и создание сайта Студия дизайна ЦЭТИС        </a>
+      </td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  <!-- /footer -->
+
+
+<noscript>
+<div>
+    <img src="//mc.yandex.ru/watch/1379221?ut=noindex" style="position:absolute; left:-9999px;" alt="" />
+    <img src="//mc.yandex.ru/watch/4919539?ut=noindex" style="position:absolute; left:-9999px;" alt="" />
+</div>
+</noscript>
+
+<script type="text/javascript">
+<!--
+var pageTracker;
+$(function(){
+    // defer GA loading
+    var host = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    var src = host + 'google-analytics.com/ga.js';
+    $.ajax({
+        type:      'GET',
+        url:       src,
+        success:   function() {
+        	try{
+                pageTracker = _gat._getTracker("UA-3380909-1");
+                pageTracker._trackPageview();
+                }catch(e){};
+        },
+        error:     function() {
+                throw "Unable to load ga.js; _gat has not been defined.";
+        },
+        dataType:  'script',
+        cache:     true
+    });
+
+    // YaMetrics
+    var proto = (("https:" == document.location.protocol)? 'https://' : 'http://');
+    var src   = proto + 'mc.yandex.ru/metrika/watch.js';
+    $.ajax({
+        type:      'GET',
+        url:       src,
+        success:   function(){
+		try {
+		    var yaCounter1379221 = new Ya.Metrika({id:1379221, clickmap:true, trackLinks:true, ut:'noindex'});
+		    yaCounter1379221.clickmap(true);
+		    yaCounter1379221.trackLinks(true);
+		} catch(e) {}
+		try {
+		    var yaCounter4919539 = new Ya.Metrika({id:4919539, clickmap:true, trackLinks:true, ut:'noindex'});
+		    yaCounter4919539.clickmap(true);
+		    yaCounter4919539.trackLinks(true);
+		} catch(e) {}
+	},
+        error:     function() {
+                throw "Unable to load watch.js.";
+        },
+        dataType:  'script',
+        cache:     true
+    });
+
+    
+    // Live Internet counter
+    $('body').append('<img src="'+document.location.protocol+'//counter.yadro.ru/hit?r'+
+escape(document.referrer)+((typeof(screen)=='undefined')?'':
+';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+';u'+escape(document.URL)+
+';'+Math.random()+'" width="1" height="1" alt="" style="position:absolute;" />');
+
+});
+// -->
+</script>
+
+  </div>
+  <!-- /wrapper -->
+
+</body>
+</html>
+
+
